@@ -59,12 +59,9 @@ formButton4.on("click", validateFunction);
 // Part 5
 function jsonFunction(event){
     let formJsonObject = {};
-    let firstNameVal = $("#firstName").val();
-    formJsonObject.firstName = firstNameVal ;
-    let lastNameVal = $("#lastName").val();
-    formJsonObject.lastName = lastNameVal;
-    let emailVal = $("#email").val();
-    formJsonObject.email = emailVal;
+    formJsonObject.firstName = $("#firstName").val();
+    formJsonObject.lastName = $("#lastName").val();
+    formJsonObject.email = $("#email").val();
     console.log(formJsonObject);
 }
 
